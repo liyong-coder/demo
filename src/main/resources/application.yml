@@ -1,0 +1,14 @@
+
+server:
+  port: 8488
+  servlet:
+    context-path: /demo
+
+spring:
+  application:
+    name: DEMO
+  datasource:
+      url: jdbc:mysql://172.16.8.18:3306/liyong?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: admin@1
+      driverClassName: com.mysql.jdbc.Driver
